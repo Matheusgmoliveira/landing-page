@@ -1,0 +1,55 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+
+.navbar{
+    background-color: #0190c0
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #FFF;
+    color: #0190c0;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cerimonia .nav-link.active:hover{
+    color: #fff;
+}
+
+
+
+.navbar-toggler{
+    background-color:#ffeae6;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+
+
+#sobre-o-casamento, #cerimonia
+{
+    background-color: #b0e6f87e;
+}
+
+.text-colored{
+    color: #0190c0;
+}
+
+.nav-cerimonia .nav-link.active{
+    background-color: #0190c0;
+    color: #FFF;
+}
+.nav-cerimonia .nav-link:hover{
+    color: #0190c0;
+}
+
+@media(max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
